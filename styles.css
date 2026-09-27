@@ -19,12 +19,57 @@
 
 /* Dark Mode */
 body.dark-mode {
-    --text-color: #f9fafb;
-    --text-light: #d1d5db;
-    --bg-color: #1f2937;
-    --bg-light: #111827;
+    --text-color: #f3f4f6;
+    --text-light: #e5e7eb;
+    --bg-color: #111827;
+    --bg-light: #1f2937;
     --border-color: #374151;
     --shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .project-card,
+body.dark-mode .skill-category,
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+    background-color: #1f2937;
+    color: #f3f4f6;
+    border-color: #374151;
+}
+
+body.dark-mode .project-content h3,
+body.dark-mode .skill-category h3 {
+    color: #a5b4fc;
+}
+
+body.dark-mode .tag {
+    background-color: #374151;
+    color: #c7d2fe;
+}
+
+body.dark-mode .project-link {
+    color: #a5b4fc;
+}
+
+body.dark-mode .project-link:hover {
+    color: #c7d2fe;
+}
+
+body.dark-mode .navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid #374151;
+}
+
+body.dark-mode .profile-image {
+    border-color: #374151;
+}
+
+body.dark-mode .contact-form input::placeholder,
+body.dark-mode .contact-form textarea::placeholder {
+    color: #9ca3af;
+}
+
+body.dark-mode .skill-category li {
+    border-bottom-color: #374151;
 }
 
 html {
